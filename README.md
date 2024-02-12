@@ -8,4 +8,5 @@ Because both of the time of flight chambers have different pressures, we needed 
 
 ## Double Screen Grabber Demo
 <img width="500" alt="Double Screen Grabber Demo" src="https://github.com/chintanvajariya/double_grabber/assets/49341214/016870be-9e63-4371-b729-512a133b3a0f">
-I decided to show the app collecting time zone values as opposed to the data collecting app, as I don't plan to show the software I have thus far slandered.
+
+I decided to collect time zone values as opposed to our data presented by the collecting app, as I don't plan to show the software I have thus far slandered.
