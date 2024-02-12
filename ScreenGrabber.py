@@ -55,7 +55,7 @@ class ScreenCapture:
         if self.running and len(self.selections) == 2:
             t0 = datetime.now()
 
-            save_folder = '/Users/chintanvajariya/research'  # Replace with the data folder path
+            save_folder = '/Users/chintanvajariya/research/ScreenGrabber'  # Replace with the data folder path
 
             #formatting file title and data
             current_date = datetime.now().strftime("%Y%m%d")
@@ -73,7 +73,7 @@ class ScreenCapture:
             # initialize .csv file with titles
             one = True
             for writer in writers:
-                writer.writerow(['Central Time', ' Local Time', ' Elapsed Time']) if one else writer.writerow(['Eastern Time', ' Local Time', ' Elapsed Time'])
+                writer.writerow(['Pacific Time', ' Local Time', ' Elapsed Time']) if one else writer.writerow(['Eastern Time', ' Local Time', ' Elapsed Time'])
                 one = False
 
             # loop this forever (until you decide to stop the program)
